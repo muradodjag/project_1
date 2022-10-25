@@ -149,6 +149,105 @@ header {
 }
 
 
+.block2__title {
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    font-size: 55px;
+    height: 150px;
+}
+
+/* --------------upper-block--------------- */
+.block2__title {
+    margin-top: 40px;
+    margin-bottom: -27px;
+}
+
+.block2-upper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: -38px;
+    margin-left: 2px;
+}
+
+.block2-upper__paragraph-wrapper {
+    height: 500px;
+}
+
+.block2-upper__paragraph {
+    font-family: "Roboto", sans-serif;
+    max-width: 662px;
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 37px;
+
+}
+
+.block2-upper__img-wrapper {
+    position: relative;
+    top: 20px;
+    height: 400px;
+    right: 56px;
+}
+
+.block2-upper__shadow {
+    position: absolute;
+    bottom: 50px;
+    left: -30px;
+    width: 150%;
+    z-index: -1;
+}
+
+/* ------------lower-block---------------- */
+
+.block2-lower {
+    display: flex;
+    height: 400px;
+}
+
+.block2-lower__left-img {
+    position: relative;
+    max-width: 232px;
+    margin-right: 132px;
+    height: 220px;
+}
+
+.block2-lower__shadow {
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    left: 25px;
+}
+
+.block2-lower__paragraph-wrapper {
+    display: flex;
+    position: relative;
+    top: 80px;
+    font-family: "Roboto", sans-serif;
+    flex-wrap: wrap;
+}
+
+.block2-lower__paragraph {
+    max-width: 150px;
+    margin-right: 95px;
+}
+
+.block2-lower__paragraph:last-child {
+    margin: 0;
+}
+
+.block2-lower__title {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+}
+
+.block2-lower__text {
+    font-size: 18px;
+    line-height: 130%;
+}
+
+
 @media screen and (max-width: 1439px) {
 
     /*
@@ -289,6 +388,78 @@ for tablet
         height: 26px;
         font-family: 'Roboto';
     }
+
+    .block2__title {
+        font-size: 32px;
+        height: 80px;
+        margin-top: 14px;
+        margin-bottom: -9px;
+    }
+
+    .block2-upper__paragraph-wrapper {
+        height: 300px;
+    }
+
+    .block2-upper__paragraph {
+        max-width: 383px;
+        font-size: 14px;
+        margin-bottom: 27px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        line-height: 20px;
+        margin-left: -3px;
+    }
+
+    .block2-upper__img {
+        top: 30px;
+        width: 181.86px;
+        max-height: 182.44px;
+    }
+
+    .block2-upper__shadow {
+        bottom: -25px;
+        left: -30px;
+        width: 135%;
+    }
+
+    /* ---------------------------- */
+
+    .block2-lower {
+        height: 210px;
+    }
+
+    .block2-lower__paragraph-wrapper {
+        top: 40px;
+    }
+
+    .block2-lower__left-img {
+        width: 134.37px;
+        height: 117.57px;
+        margin-right: 76.5px;
+    }
+
+    .block2-lower__shadow {
+        position: absolute;
+        bottom: -10px;
+        left: 15px;
+    }
+
+    .block2-lower__paragraph {
+        max-width: 86.88px;
+        margin-right: 55.2px;
+    }
+
+    .block2-lower__paragraph:nth-child(2) {
+        max-width: 91px;
+    }
+
+    .block2-lower__title {
+        font-size: 15px;
+    }
+
+    .block2-lower__text {
+        font-size: 11px;
+    }
 }
 
 @media screen and (max-width: 833px) {
@@ -423,4 +594,63 @@ for mobile
         font-size: 10px;
         height: 22px;
     }
+
+
+    .block2__title {
+        font-size: 26px;
+        height: 60px;
+    }
+
+    .block2-upper__paragraph-wrapper {
+        height: 250px;
+    }
+
+    .block2-upper__paragraph {
+        max-width: 308px;
+        font-size: 12px;
+        margin-bottom: 24px;
+    }
+
+    .block2-upper__img-wrapper {
+        top: 0px;
+        max-width: 170.55px;
+        max-height: 160.29px;
+        right: -65px;
+    }
+
+    .block2-upper__shadow {
+        bottom: -30px;
+        left: -25px;
+        width: 130%;
+    }
+
+    /* ---------------------------- */
+
+    .block2-lower__left-img {
+        display: none;
+    }
+
+    .block2-lower__paragraph-wrapper {
+        max-width: 250px;
+        height: 100px;
+    }
+
+    .block2-lower {
+        height: 250px;
+    }
+
+    .block2-lower__paragraph {
+        max-width: 86.88px;
+        margin-right: 33.3px;
+        margin-bottom: 34px;
+    }
+
+    .block2-lower__title {
+        font-size: 12px;
+    }
+
+    .block2-lower__text {
+        font-size: 10px;
+    }
+
 }
